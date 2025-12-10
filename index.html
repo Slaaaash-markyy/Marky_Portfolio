@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mark Adrian C. Alloso — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <div class="header-inner">
+            <img src="Pictures/28.jpg" alt="Profile" class="profile-pic" onerror="this.style.display='none'">
+            <div class="header-text">
+                <h1 id="title">Mark Adrian C. Alloso</h1>
+                <p id="subtitle">Student Web Developer • Designer</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#certificate">Certificates</a></li>
+            <li><a href="#companies">Company Visited</a></li>
+            <li><a href="#highlights">Tour Highlights</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="section hero">
+            <div class="hero-content">
+                <h2 class="animated-text">Hello, I'm <span class="highlight">Mark</span></h2>
+                <p id="intro-text">A Web Developer & Designer this is my portfolio.</p>
+            </div>
+
+    <div class="hero-image">
+        <img src="Pictures/profile.jpg" alt="Profile Picture" class="profile-pic">
+    </div>
+</section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p id="about-text">
+                I'm a student web developer who focuses on building accessible, responsive, and clean websites. I enjoy creating modern designs that are simple, user-friendly, and visually appealing.
+                <br><br>
+                Outside of coding and designing, I love playing games, listening to R&B, Hip-Hop, and Rock music, and hitting the gym to stay fit and improve my body.
+            </p>
+        </section>
+
+        <section id="certificate" class="section">
+    <h2>Certificates</h2>
+    <div class="certificate-item" 
+        data-title="Certificate of Completion"
+        data-desc="This certificate was awarded for actively participating in the Cebu & Bohol Educational Tour and demonstrating engagement during the company visits."
+        data-img="Pictures/certificate1.jpg">
+        <div class="certificate-thumb">
+            <img src="Pictures/certificate1.jpg" alt="Certificate">
+        </div>
+        <div class="certificate-info">
+            <h3 class="certificate-title">Certificate of Completion</h3>
+            <h3>Cebu & Bohol</h3>
+            <p>(Click to view full certificate and details)</p>
+        </div>
+    </div>
+</section>
+
+<div id="certificateModal" class="modal">
+    <div class="modal-content">
+        <span class="closeBtn">&times;</span>
+        <h2 id="modalTitle"></h2>
+        <img id="modalImage" src="" alt="Certificate">
+        <p id="modalDesc"></p>
+    </div>
+</div>
+
+        <section id="companies" class="section">
+            <h2>Company Visited</h2>
+            <div id="companies-list" class="companies-grid">
+        
+        <div class="company-block">
+        <a href="https://www.facebook.com/worldtechinformationsolutions" target="_blank">
+            <div class="company-container">
+                <img src="Pictures/WorldTechlogo.jpg" alt="WorldTech Logo" class="company-logo">
+                <div class="company-name">Worldtech Information...</div>
+            </div>
+        </a>
+        <button class="journal-btn" data-company="worldtech">Show Journal</button>
+        <div class="gallery">
+            <img src="Pictures/WorldTech.jpg" alt="WorldTech">
+            <img src="Pictures/WorldTech1.jpg" alt="WorldTech1">
+            <img src="Pictures/WorldTech2.jpg" alt="WorldTech2">
+            <img src="Pictures/WordTech3.jpg" alt="WorldTech3">
+            <img src="Pictures/WorldTech4.jpg" alt="WorldTech4">
+        </div>
+        </div>
+        <div class="company-block">
+        <a href="https://www.facebook.com/rivanitcebu" target="_blank">
+            <div class="company-container">
+                <img src="Pictures/Rivanlogo.jpg" alt="Rivan IT Cebu Logo" class="company-logo">
+                <div class="company-name">Rivan IT Cebu</div>
+            </div>
+        </a>
+        <button class="journal-btn" data-company="rivanitcebu">Show Journal</button>
+        <div class="gallery">
+            <img src="Pictures/RivanIT.jpg" alt="RivanIT">
+            <img src="Pictures/RivanIT2.jpg" alt="RivanIT2">
+            <img src="Pictures/RivanIT3.jpg" alt="RivanIT3">
+            <img src="Pictures/RivanIT4.jpg" alt="RivanIT4">
+            <img src="Pictures/RivanIT5.jpg" alt="RivanIT5">
+        </div>
+        </div>
+        <div class="company-block">
+        <a href="https://www.facebook.com/codechum" target="_blank">
+            <div class="company-container">
+                <img src="Pictures/Codechumlogo.jpg" alt="CodeChum Logo" class="company-logo">
+                <div class="company-name">CodeChum</div>
+            </div>
+        </a>
+        <button class="journal-btn" data-company="codechum">Show Journal</button>
+        <div class="gallery">
+            <img src="Pictures/Codechum.jpg" alt="Codechum">
+            <img src="Pictures/Codechum2.jpg" alt="Codechum2">
+            <img src="Pictures/Codechum3.jpg" alt="Codechum3">
+            <img src="Pictures/Codechum4.jpg" alt="Codechum4">
+            <img src="Pictures/Codechum5.jpg" alt="Codechum5">
+        </div>
+        </div>
+        <div class="company-block">
+        <a href="https://www.facebook.com/matatechnologies" target="_blank">
+            <div class="company-container">
+                <img src="Pictures/MATATechlogo.jpg" alt="Mata Technologies Logo" class="company-logo">
+                <div class="company-name">Mata Technologies</div>
+            </div>
+        </a>
+        <button class="journal-btn" data-company="matatechnologies">Show Journal</button>
+        <div class="gallery">
+            <img src="Pictures/MATATech.jpg" alt="MATATech">
+            <img src="Pictures/MATATech2.jpg" alt="MATATech2">
+            <img src="Pictures/MATATech3.jpg" alt="MATATech3">
+            <img src="Pictures/MATATech4.jpg" alt="MATATech4">
+            <img src="Pictures/MATATech5.jpg" alt="MATATech5">
+        </div>
+        </div>
+        <div class="company-block">
+        <a href="https://www.facebook.com/TagbCityDRRMO" target="_blank">
+            <div class="company-container">
+                <img src="Pictures/Tagbilaran911logo.jpg" alt="Tagbilaran City DRRMO Logo" class="company-logo">
+                <div class="company-name">Tagbilaran City DRRMO</div>
+            </div>
+        </a>
+        <button class="journal-btn" data-company="tagbilaran">Show Journal</button>
+        <div class="gallery">
+            <img src="Pictures/Tagbilaran911.jpg" alt="Tagbilaran911">
+            <img src="Pictures/Tagbilaran9112.jpg" alt="Tagbilaran9112">
+            <img src="Pictures/Tagbilaran9113.jpg" alt="Tagbilaran9113">
+            <img src="Pictures/Tagbilaran9114.jpg" alt="Tagbilaran9114">
+            <img src="Pictures/Tagbilaran9115.jpg" alt="Tagbilaran9115">
+        </div>
+        </div>
+</div>
+        </section>
+        <div id="journalModal" class="modal">
+    <div class="modal-content">
+        <span class="closeJournal">&times;</span>
+        <h2 id="journal-title"></h2>
+        <img id="journal-image" src="" alt="Journal Image">
+    </div>
+</div>
+
+        <section id="highlights" class="section">
+            <h2>Tour Highlights</h2>
+            <ul id="highlights-list" class="list"></ul>
+            
+            <h1>Cebu & Bohol</h1>
+            <div class="slider-container">
+                <button class="arrow left" id="prevBtn">&#10094;</button>
+
+                <div class="slider-track" id="slider-track">
+                    <img src="Pictures/1.jpg" alt="">
+                    <img src="Pictures/2.jpg" alt="">
+                    <img src="Pictures/3.jpg" alt="">
+                    <img src="Pictures/4.jpg" alt="">
+                    <img src="Pictures/5.jpg" alt="">
+                    <img src="Pictures/6.jpg" alt="">
+                    <img src="Pictures/7.jpg" alt="">
+                    <img src="Pictures/8.jpg" alt="">
+                    <img src="Pictures/9.jpg" alt="">
+                    <img src="Pictures/10.jpg" alt="">
+                    <img src="Pictures/11.jpg" alt="">
+                    <img src="Pictures/12.jpg" alt="">
+                    <img src="Pictures/13.jpg" alt="">
+                    <img src="Pictures/14.jpg" alt="">
+                    <img src="Pictures/15.jpg" alt="">
+                    <img src="Pictures/16.jpg" alt="">
+                    <img src="Pictures/17.jpg" alt="">
+                    <img src="Pictures/18.jpg" alt="">
+                    <img src="Pictures/19.jpg" alt="">
+                    <img src="Pictures/20.jpg" alt="">
+                    <img src="Pictures/21.jpg" alt="">
+                    <img src="Pictures/22.jpg" alt="">
+                    <img src="Pictures/23.jpg" alt="">
+                    <img src="Pictures/24.jpg" alt="">
+                    <img src="Pictures/25.jpg" alt="">
+                    <img src="Pictures/26.jpg" alt="">
+                    <img src="Pictures/27.jpg" alt="">
+                    <img src="Pictures/28.jpg" alt="">
+                    <img src="Pictures/29.jpg" alt="">
+                    <img src="Pictures/30.jpg" alt="">
+                    <img src="Pictures/31.jpg" alt="">
+                    <img src="Pictures/32.jpg" alt="">
+                    <img src="Pictures/33.jpg" alt="">
+                    <img src="Pictures/34.jpg" alt="">
+                    <img src="Pictures/35.jpg" alt="">
+                    <img src="Pictures/36.jpg" alt="">
+                    <img src="Pictures/37.jpg" alt="">
+                </div>
+
+                <button class="arrow right" id="nextBtn">&#10095;</button>
+            </div>
+        </section>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+<section id="skills" class="section">
+    <h2>Skills</h2>
+    <div id="skills-list" class="skills-grid">
+        <div class="skill"><i class="fab fa-js-square"></i> JavaScript</div>
+        <div class="skill">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 128 128">
+                <path fill="#3178C6" d="M1.408 0h125.184v128H1.408z"/>
+                <path fill="#fff" d="M59.585 101.865h11.06V66.147h14.1v-9.106h-25.16v44.824zm0-49.91h25.16V42.3h-14.1v-9.105h-11.06v19.56z"/>
+            </svg>
+            TypeScript
+        </div>
+        <div class="skill"><i class="fab fa-css3-alt"></i> CSS3</div>
+        <div class="skill"><i class="fab fa-html5"></i> HTML5</div>
+        <div class="skill"><i class="fas fa-code"></i> C#</div>
+        <div class="skill"><i class="fab fa-react"></i> React</div>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Mark Adrian C. Alloso — Portfolio</p>
+    </footer>
+
+   <script>
+
+fetch("data.json")
+    .then(res => res.json())
+    .then(data => {
+        document.getElementById("title").textContent = data.title || "Mark Adrian C. Alloso";
+        document.getElementById("subtitle").textContent = data.subtitle || "Portfolio & Educational Tour";
+
+        document.getElementById("intro-text").textContent = data.intro || "Welcome to my portfolio.";
+        document.getElementById("about-text").textContent = data.about || "";
+
+        document.getElementById("tour-desc").textContent = data.tourDescription || "";
+
+        
+        const companiesList = document.getElementById("companies-list");
+        data.companies.forEach(company => {
+            const card = document.createElement("div");
+            card.className = "company-card";
+
+            const img = document.createElement("img");
+            img.src = company.logo || company.image || "https://picsum.photos/seed/company/200/200";
+            img.alt = company.name;
+            img.className = "company-logo";
+
+            const name = document.createElement("div");
+            name.className = "company-name";
+            name.textContent = company.name;
+
+            const desc = document.createElement("p");
+            desc.className = "company-desc";
+            desc.textContent = company.description || "";
+
+            
+            const btn = document.createElement("button");
+            btn.className = "journal-btn";
+            btn.dataset.company = company.name.toLowerCase().replaceAll(" ", "");
+            btn.textContent = "Show Journal";
+
+            card.appendChild(img);
+            card.appendChild(name);
+            card.appendChild(desc);
+            card.appendChild(btn);
+
+            companiesList.appendChild(card);
+        });
+
+    
+        const highlightsList = document.getElementById("highlights-list");
+        data.highlights.forEach(item => {
+            const li = document.createElement("li");
+            li.textContent = item;
+            highlightsList.appendChild(li);
+        });
+
+    
+        const track = document.getElementById("slider-track");
+        data.gallery.forEach(url => {
+            const img = document.createElement("img");
+            img.src = url;
+            img.alt = "Tour photo";
+            track.appendChild(img);
+        });
+
+    
+        const skillsGrid = document.getElementById("skills-list");
+        data.skills.forEach(skill => {
+            const div = document.createElement("div");
+            div.className = "skill";
+            div.innerHTML = `<h4>${skill.name}</h4><small>${skill.level}</small>`;
+            skillsGrid.appendChild(div);
+        });
+
+    })
+    .catch(err => console.error("Error loading data.json:", err));
+
+
+let index = 0;
+
+document.getElementById("nextBtn").addEventListener("click", () => {
+    const total = document.querySelectorAll("#slider-track img").length;
+    if (total === 0) return;
+    index = (index + 1) % total;
+    updateSlider();
+});
+
+document.getElementById("prevBtn").addEventListener("click", () => {
+    const total = document.querySelectorAll("#slider-track img").length;
+    if (total === 0) return;
+    index = (index - 1 + total) % total;
+    updateSlider();
+});
+
+function updateSlider() {
+    const track = document.getElementById("slider-track");
+    track.style.transform = `translateX(${-index * 100}%)`;
+}
+
+window.addEventListener("resize", updateSlider);
+
+
+const certificateModal = document.getElementById("certificateModal");
+const modalImg = document.getElementById("modalImage");
+const modalTitle = document.getElementById("modalTitle");
+const modalDesc = document.getElementById("modalDesc");
+const closeCertificate = document.querySelector(".closeBtn");
+
+document.querySelectorAll(".certificate-item").forEach(item => {
+    item.addEventListener("click", () => {
+        modalImg.src = item.dataset.img;
+        modalTitle.textContent = item.dataset.title;
+        modalDesc.textContent = item.dataset.desc;
+        certificateModal.style.display = "flex";
+    });
+});
+
+closeCertificate.onclick = () => {
+    certificateModal.style.display = "none";
+};
+
+const journalModal = document.getElementById("journalModal");
+const journalTitle = document.getElementById("journal-title");
+const journalImage = document.getElementById("journal-image");
+
+const journalImages = {
+    worldtech: "Pictures/worldtechjournal.jpg",
+    rivanitcebu: "Pictures/RivanITjournal.jpg",
+    codechum: "Pictures/codechumjournal.jpg",
+    matatechnologies: "Pictures/matatechjournal.jpg",
+    tagbilaran: "Pictures/tagbilaran911journal.jpg"
+};
+
+document.querySelectorAll(".journal-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+        const company = btn.dataset.company;
+        journalTitle.textContent = btn.previousElementSibling.querySelector(".company-name").textContent;
+        journalImage.src = journalImages[company] || "";
+        journalModal.style.display = "flex";
+    });
+});
+
+document.querySelector(".closeJournal").onclick = () => {
+    journalModal.style.display = "none";
+};
+
+
+
+document.querySelector(".closeJournal").onclick = () => {
+    journalModal.style.display = "none";
+};
+
+
+window.addEventListener("click", e => {
+    if (e.target === certificateModal) certificateModal.style.display = "none";
+    if (e.target === journalModal) journalModal.style.display = "none";
+});
+</script>
+
+
+<div id="journalModal" class="modal">
+    <div class="modal-content">
+        <span class="closeJournal">&times;</span>
+        <h2 id="journal-title"></h2>
+        <img id="journal-image" src="" alt="Journal Image">
+    </div>
+</div>
+
+</body>
+</html>

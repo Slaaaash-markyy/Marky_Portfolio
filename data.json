@@ -1,0 +1,65 @@
+{
+  "title": "Mark Adrian C. Alloso",
+  "subtitle": "Student Web Developer • Designer ",
+  "intro": "A Web Developer & Designer this is my portfolio.",
+  "about": "I'm a student web developer who focuses on building accessible, responsive, and clean websites. I enjoy creating modern designs that are simple, user-friendly, and visually appealing.\n\nOutside of coding and designing, I love playing games, listening to R&B, Hip-Hop, and Rock music, and hitting the gym to stay fit and improve my body.",
+  "tourDescription": "Our 2025 Educational Tour allowed us to visit multiple companies and organizations to learn about their operations, technologies, and community roles. We experienced hands-on demos, learned from professionals, and explored local culture and history.",
+  "companies": [
+    {
+      "name": "Worldtech Information Solutions, Inc.",
+      "link": "https://www.facebook.com/worldtechinformationsolutions",
+      "logo": "Pictures/WorldTechlogo.jpg",
+      "image": "Pictures/WorldTech.jpg",
+      "description": "A software solutions company where we learned about application development and enterprise workflows."
+    },
+    {
+      "name": "Rivan IT Cebu",
+      "link": "https://www.facebook.com/rivanitcebu",
+      "logo": "Pictures/RivanITlogo.jpg",
+      "image": "Pictures/RivanIT.jpg",
+      "description": "Local IT firm focused on system integration and services for small businesses."
+    },
+    {
+      "name": "CodeChum",
+      "link": "https://www.facebook.com/codechum",
+      "logo": "Pictures/Codechumlogo.jpg",
+      "image": "Pictures/Codechum.jpg",
+      "description": "An education-focused tech group promoting coding skills and mentorship for students."
+    },
+    {
+      "name": "Mata Technologies",
+      "link": "https://www.facebook.com/matatechnologies",
+      "logo": "Pictures/MATATechlogo.jpg",
+      "image": "Pictures/MATATech.jpg",
+      "description": "Technology start-up showcasing hardware-software integration for local solutions."
+    },
+    {
+      "name": "Tagbilaran City DRRMO",
+      "link": "https://www.facebook.com/TagbCityDRRMO",
+      "logo": "Pictures/Tagbilaran911logo.jpg",
+      "image": "Pictures/Tagbilaran911.jpg",
+      "description": "City disaster management office showing emergency response protocols and community service."
+    }
+  ],
+  "highlights": [
+    "Visited the National Science Discovery Center with hands-on experiments.",
+    "Explored historical sites such as Magellan's Cross and Fort San Pedro.",
+    "Observed software development workflows in local tech companies.",
+    "Participated in team-building activities and workshops.",
+    "Enjoyed cultural food and local attractions in Cebu and Bohol."
+  ],
+  "gallery": [
+    "https://picsum.photos/seed/edutour1/1200/800",
+    "https://picsum.photos/seed/edutour2/1200/800",
+    "https://picsum.photos/seed/edutour3/1200/800",
+    "https://picsum.photos/seed/edutour4/1200/800",
+    "https://picsum.photos/seed/edutour5/1200/800"
+  ],
+  "skills": [
+    { "name": "HTML & CSS", "level": "Intermediate" },
+    { "name": "JavaScript", "level": "Intermediate" },
+    { "name": "Git & GitHub", "level": "Familiar" },
+    { "name": "Problem Solving", "level": "Strong" },
+    { "name": "Team Collaboration", "level": "Strong" }
+  ]
+}
